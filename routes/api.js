@@ -7,7 +7,16 @@ const Student = require('../models/Student.js')
 const School = require('../models/School.js')
 
 router.get('/student', (req, res) => {
-    Student.find()
+    //const query = req.query
+    let fileters = req.query
+    if (req.query.grade != null){
+        filters = {
+            grade: {
+                $gt: req.query.grade
+            }
+        }
+    }
+    Student.find(filters)
     .then(student => {
         res.json({
             confirmation: 'success',
@@ -23,7 +32,7 @@ router.get('/student', (req, res) => {
 })
 
 router.get('/school', (req, res) => {
-    School.find()
+    School.find(filters)
     .then(school => {
         res.json({
             confirmation: 'success',
