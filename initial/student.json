@@ -1,0 +1,41 @@
+ECHO is on.
+/*{
+    "name": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "school": "" ,
+    "gradeLevel": "" ,
+    "email": "",
+    "phone": ""
+}*/
+{
+    "name": "Matt D",
+    "address": "oletha",
+    "city": "oletha",
+    "state": "KS",
+    "school": "Salina South" ,
+    "gradeLevel": "12" ,
+    "email": "qwerty",
+    "phone": "qwerty"
+}
+{
+    "name": "Matt C",
+    "address": "Salina",
+    "city": "Salina",
+    "state": "KS",
+    "school": "Salina South" ,
+    "gradeLevel": "9" ,
+    "email": "qwerty",
+    "phone": "qwerty"
+}
+{
+    "name": "Morgan P",
+    "address": "Lindsborg",
+    "city": "Lindsborg",
+    "state": "KS",
+    "school": "Salina Central" ,
+    "gradeLevel": "12" ,
+    "email": "qwerty",
+    "phone": "qwerty"
+}

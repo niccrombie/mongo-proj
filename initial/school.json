@@ -1,0 +1,22 @@
+ECHO is on.
+/*{
+    "name": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "usd": "" 
+}*/
+{
+    "name": "Salina South",
+    "address": "Salina",
+    "city": "Salina",
+    "state": "KS",
+    "usd": "123" 
+}
+{
+    "name": "Salina Central",
+    "address": "salina",
+    "city": "Salina",
+    "state": "KS",
+    "usd": "321" 
+}
